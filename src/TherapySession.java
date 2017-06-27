@@ -5,9 +5,6 @@ public class TherapySession {
 	public static void main(String[] args) {
 		Scanner keyboard = new Scanner(System.in);
 		Therapist eliza = new Therapist();
-		String test = "ooga booga dooga";
-		test = test.replace("dooga","wooga");
-		System.out.println(test);
 		int count = 0;
 		String input = "";
 		System.out.println("Welcome to your therapy session! You can call me Dr. Eliza. What would you like to talk about?");
